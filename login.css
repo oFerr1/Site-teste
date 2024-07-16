@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    perspective: 1000px;
+    width: 300px;
+    height: 400px;
+    position: relative;
+}
+
+.login-box, .register-box {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: absolute;
+    backface-visibility: hidden;
+    transition: transform 0.6s;
+}
+
+.login-box {
+    transform: rotateY(0deg);
+}
+
+.register-box {
+    transform: rotateY(180deg);
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #460101;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #640000;
+}
+
+.toggle {
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    color: #360101;
+}
+
+.toggle:hover {
+    text-decoration: underline;
+}
+
+.container.flip .login-box {
+    transform: rotateY(-180deg);
+}
+
+.container.flip .register-box {
+    transform: rotateY(0deg);
+}
+
