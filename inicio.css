@@ -1,5 +1,144 @@
-body{
-
-    background-color: rgb(218, 218, 218);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
 }
 
+html{
+
+    height: 500vh;
+
+}
+
+
+.container{
+    max-width: 1280px;  
+    margin: auto;
+
+
+}
+
+.NavUm{
+
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+header{
+
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
+}
+header.rolagem{
+
+    background-color: #fff;
+    padding: 20px;
+
+
+
+}
+
+header.rolagem a{
+
+    color:#640000;
+
+
+}
+
+header.rolagem .Sete{
+
+    color: #640000;
+
+}
+
+header i{
+
+   font-size: 30px;
+   color: black;
+
+}
+
+header  ul{
+
+    list-style-type: none;  
+   
+}
+
+header ul li{
+
+    display: inline-block;
+    margin: 0 40px;
+
+}
+
+header ul li a{
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.banner{
+
+    height: 100vh;
+    background-image: url(digital-art.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1{
+
+    font-size: 4em;
+    color: #fff;
+   
+}
+
+.banner h1 span{
+
+    color:brown;
+
+}
+
+.Login{
+
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    background-color: brown;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.Login:hover{
+
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+    border: 0;
+    background-color: rgb(102, 39, 39);
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+
+}
+
+.Sete{
+
+    color: #fff;
+    
+}

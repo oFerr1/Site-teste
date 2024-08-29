@@ -85,3 +85,17 @@ button:hover {
     transform: rotateY(0deg);
 }
 
+.voltar{
+    position: fixed;
+    text-decoration: none;
+    color:#640000;
+    left: 20px;
+    top: 1px;
+}
+
+.voltar:hover{
+
+    color: #1b0000;
+    
+    transition: 1s;
+}
