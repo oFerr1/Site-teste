@@ -83,7 +83,15 @@ header ul li a{
 
     color: #fff;
     text-decoration: none;
+    transition: 1s;
 
+}
+
+header ul li a:hover{
+
+    color: #adadad;
+    font-size: 20px;
+    transition: 1s;
 }
 
 .banner{
@@ -127,13 +135,13 @@ header ul li a{
 .Login:hover{
 
     border-radius: 3px;
-    width: 100px;
-    height: 40px;
+    width: 110px;
+    height: 50px;
     border: 0;
     background-color: rgb(102, 39, 39);
     color: #fff;
     cursor: pointer;
-    transition: 0.5s;
+    transition: 1s;
 
 }
 
